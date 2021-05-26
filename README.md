@@ -4,11 +4,59 @@ Lo primero que hay que hacer es un npm install --save-dev jest que ello te gener
 
 ## Suma
 
+#### Función utilizada para resolver la suma
+
+```javascript
+//Función suma que recibe dos números y retorna la suma de dichos números
+function suma(a, b) { 
+    return a + b;
+}
+module.exports = suma;
+```
+
+#### Test utilizado para la suma:
+
+```javascript
+//Requerimos la funcion que tenemos almacenada en modulo suma y hacemos el test dandole los valores correctos para la prueba
+const suma = require('../calc-modulos/suma');
+
+test('sumar 3 + 1 es igual a 4', () => {
+  expect(suma(3, 1)).toBe(4);
+});
+```
+
+#### Resultado del test suma:
+
+![1622059574843](https://raw.githubusercontent.com/yoomismo/lab-tdd/main/src/testSuma.png)
 
 
 
+## Resta
 
+#### Función utilizada para resolver la resta
 
+```javascript
+//Función suma que recibe dos números y retorna la suma de dichos números
+function suma(a, b) { 
+    return a + b;
+}
+module.exports = suma;
+```
+
+#### Test utilizado para la resta:
+
+```javascript
+//Requerimos la funcion que tenemos almacenada en modulo suma y hacemos el test dandole los valores correctos para la prueba
+const suma = require('../calc-modulos/suma');
+
+test('sumar 3 + 1 es igual a 4', () => {
+  expect(suma(3, 1)).toBe(4);
+});
+```
+
+#### Resultado del test resta:
+
+![1622059574843](https://raw.githubusercontent.com/yoomismo/lab-tdd/main/src/testResta.png)
 
 # Raiz
 
