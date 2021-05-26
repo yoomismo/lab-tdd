@@ -1,4 +1,4 @@
-//Requerimos la funcion que tenemos almacenada en modulo resta y hacemos el test dandole los valores correctos para la prueba
+//Requerimos la funcion que tenemos almacenada en modulo raiz y hacemos el test dandole los valores correctos para la prueba
 const raiz = require('../calc-modulos/raiz');
 
 test('la raiz de 121 es igual a 11.0', () => {
