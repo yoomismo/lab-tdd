@@ -3,5 +3,5 @@
 function mult(a, b) {
     return a - b;
   }
-  //Exporta el módulo resta
+  //Exporta el módulo mult
   module.exports = mult;
