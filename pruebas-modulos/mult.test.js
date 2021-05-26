@@ -1,4 +1,4 @@
-// Archivo que contiene la implementacion de nuestra prueba actual:
+//Requerimos la funcion que tenemos almacenada en modulo mult y hacemos el test dandole los valores correctos para la prueba
 const mult = require('../calc-modulos/mult');
 
 test('multiplicar 7 * 8', () => {
