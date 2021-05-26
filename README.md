@@ -4,7 +4,7 @@ Lo primero que hay que hacer es un npm install --save-dev jest que ello te gener
 
 ## Suma
 
-#### Función utilizada para resolver la suma
+#### Función utilizada para resolver la suma:
 
 ```javascript
 //Función suma que recibe dos números y retorna la suma de dichos números
@@ -33,24 +33,25 @@ test('sumar 3 + 1 es igual a 4', () => {
 
 ## Resta
 
-#### Función utilizada para resolver la resta
+#### Función utilizada para resolver la resta:
 
 ```javascript
-//Función suma que recibe dos números y retorna la suma de dichos números
-function suma(a, b) { 
-    return a + b;
+//Función resta que recibe dos números y retorna la resta de dichos números
+
+function resta(a, b) {
+  return a - b;
 }
-module.exports = suma;
+//Exporta el módulo resta 
+module.exports = resta;
 ```
 
 #### Test utilizado para la resta:
 
 ```javascript
-//Requerimos la funcion que tenemos almacenada en modulo suma y hacemos el test dandole los valores correctos para la prueba
-const suma = require('../calc-modulos/suma');
-
-test('sumar 3 + 1 es igual a 4', () => {
-  expect(suma(3, 1)).toBe(4);
+//Requerimos la funcion que tenemos almacenada en modulo resta y hacemos el test dandole los valores correctos para la prueba
+const resta = require('../calc-modulos/resta');
+test('restar 3 - 1 es igual a 2', () => {
+  expect(resta(3, 1)).toBe(2);
 });
 ```
 
@@ -58,9 +59,71 @@ test('sumar 3 + 1 es igual a 4', () => {
 
 ![1622059574843](https://raw.githubusercontent.com/yoomismo/lab-tdd/main/src/testResta.png)
 
+
+
+## Multiplicación
+
+#### Función utilizada para resolver la multiplicación:
+
+```javascript
+//Función de la multiplicacion que recibe dos números y retorna la mult de dichos números
+
+function mult(a, b) {
+    return a * b;
+  }
+  //Exporta el módulo mult
+  module.exports = mult;
+```
+
+#### Test utilizado para la multiplicación:
+
+```javascript
+//Requerimos la funcion que tenemos almacenada en modulo mult y hacemos el test dandole los valores correctos para la prueba
+const mult = require('../calc-modulos/mult');
+
+test('multiplicar 7 * 8 es igual a 56', () => {
+  expect(mult(7, 8)).toBe(56);
+});
+```
+
+#### Resultado del test multiplicación:
+
+![1622059574843](https://raw.githubusercontent.com/yoomismo/lab-tdd/main/src/testMultiplicacion.png)
+
+
+
+
+
+## División
+
+#### Función utilizada para resolver la división:
+
+```javascript
+//Función division que recibe dos números y retorna la division de dichos números
+function division(a, b) { 
+    return a / b;
+}
+module.exports = division;
+```
+
+#### Test utilizado para la división:
+
+```javascript
+//Requerimos la funcion que tenemos almacenada en modulo division y hacemos el test dandole los valores correctos para la prueba
+const division = require('../calc-modulos/division');
+
+test('dividir 6 entre 2 es igual a 3', () => {
+  expect(division(6, 2)).toBe(3);
+});
+```
+
+#### Resultado del test división:
+
+![1622059574843](https://raw.githubusercontent.com/yoomismo/lab-tdd/main/src/testDivision.png)
+
 # Raiz
 
-Utilizamos esta página como referencia en la forma de realizar la raíz cuadrada: https://wizardprogrammer.blogspot.com/2018/12/calcular-la-raiz-caudrada-sin-la-clase.html que está en otros lenguajes y esta fórmula para resolverlo  
+Utilizamos esta página como referencia en la forma de realizar la raíz cuadrada: https://wizardprogrammer.blogspot.com/2018/12/calcular-la-raiz-caudrada-sin-la-clase.html que está en otros lenguajes pero lo transformamos en javascript y esta fórmula para resolverlo  
 
 ![1622059574843](https://raw.githubusercontent.com/yoomismo/lab-tdd/main/src/formula.png)
 
@@ -97,3 +160,6 @@ test('la raiz de 8 es igual a 2.828', () => {
 });
 ```
 
+#### Resultado del test raíz:
+
+![1622059574843](https://raw.githubusercontent.com/yoomismo/lab-tdd/main/src/testRaiz.png)
