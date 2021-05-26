@@ -11,7 +11,6 @@ Lo primero que hay que hacer es un npm install --save-dev jest que ello te gener
 
 
 # Raiz
-<<<<<<< HEAD
 
 Utilizamos esta página como referencia en la forma de realizar la raíz cuadrada: https://wizardprogrammer.blogspot.com/2018/12/calcular-la-raiz-caudrada-sin-la-clase.html que está en otros lenguajes y esta fórmula para resolverlo  
 
@@ -50,10 +49,3 @@ test('la raiz de 8 es igual a 2.828', () => {
 });
 ```
 
-
-
-=======
-Utilizamos esta página como referencia en la forma de realizar la raíz cuadrada: https://wizardprogrammer.blogspot.com/2018/12/calcular-la-raiz-caudrada-sin-la-clase.html 
-
-![image](https://user-images.githubusercontent.com/12276202/119724110-91feb180-be6e-11eb-9f92-44035d82b15b.png)
->>>>>>> aa6098153c4f7cb05696bc7fc9b26d79717d21d8
