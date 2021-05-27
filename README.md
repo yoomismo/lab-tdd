@@ -1,5 +1,5 @@
-## lab-tdd
-# Introducción
+# lab-tdd
+## Introducción
 En este laboratorio vamos a realizar una calculadora con la metodología TDD, en lenguaje javascript y con jest como framework para realizar las pruebas. 
 
 Lo primero que hay que hacer es instalar las siguientes dependencias:
