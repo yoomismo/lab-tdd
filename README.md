@@ -5,8 +5,8 @@ En este laboratorio vamos a realizar una calculadora con la metodología TDD, en
 Lo primero que hay que hacer es instalar las siguientes dependencias:
 
 - npm: Instalar node siguiendo lo descrito en esta página: https://nodejs.org/es/download/
-- package.json: npm init -f; Si hay alguna duda consultar aquí: https://www.npmjs.com/get-npm
-- jest: npm install --save-dev jest; Documentación oficial: https://jestjs.io/es-ES/docs/getting-started
+- package.json: ```npm init -f```; Si hay alguna duda consultar aquí: https://www.npmjs.com/get-npm
+- jest:``` npm install --save-dev jest```; Documentación oficial: https://jestjs.io/es-ES/docs/getting-started
 
 Tras esto lanzar el comando npm test para ejecutar las pruebas.
 
