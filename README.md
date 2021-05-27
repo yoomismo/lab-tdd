@@ -8,7 +8,7 @@ Lo primero que hay que hacer es instalar las siguientes dependencias:
 - package.json: ```npm init -f```; Si hay alguna duda consultar aquí: https://www.npmjs.com/get-npm
 - jest:``` npm install --save-dev jest```; Documentación oficial: https://jestjs.io/es-ES/docs/getting-started
 
-Tras esto lanzar el comando npm test para ejecutar las pruebas.
+Tras esto lanzar el comando ```npm test``` para ejecutar las pruebas.
 
 ## Suma
 
