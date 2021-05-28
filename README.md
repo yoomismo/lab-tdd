@@ -1,14 +1,16 @@
-## lab-tdd
-# Introducción
+# lab-tdd
+## Introducción
 En este laboratorio vamos a realizar una calculadora con la metodología TDD, en lenguaje javascript y con jest como framework para realizar las pruebas. 
 
 Lo primero que hay que hacer es instalar las siguientes dependencias:
 
 - npm: Instalar node siguiendo lo descrito en esta página: https://nodejs.org/es/download/
-- package.json: npm init -y; Genera un package.json, si hay alguna duda consultar aquí: https://docs.npmjs.com/cli/v7/commands/npm-init
-- jest: npm install --save-dev jest; Documentación oficial: https://jestjs.io/es-ES/docs/getting-started
 
-Tras esto lanzar el comando npm test para ejecutar las pruebas.
+- package.json: ``` npm init -y ```; Genera un package.json, si hay alguna duda consultar aquí: https://docs.npmjs.com/cli/v7/commands/npm-init
+- jest: ```  npm install --save-dev jest ```; Documentación oficial: https://jestjs.io/es-ES/docs/getting-started
+
+
+Tras esto lanzar el comando ```npm test``` para ejecutar las pruebas.
 
 ## Suma
 
