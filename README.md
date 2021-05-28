@@ -5,7 +5,7 @@ En este laboratorio vamos a realizar una calculadora con la metodología TDD, en
 Lo primero que hay que hacer es instalar las siguientes dependencias:
 
 - npm: Instalar node siguiendo lo descrito en esta página: https://nodejs.org/es/download/
-- package.json: npm init -f; Si hay alguna duda consultar aquí: https://www.npmjs.com/get-npm
+- package.json: npm init -y; Genera un package.json, si hay alguna duda consultar aquí: https://docs.npmjs.com/cli/v7/commands/npm-init
 - jest: npm install --save-dev jest; Documentación oficial: https://jestjs.io/es-ES/docs/getting-started
 
 Tras esto lanzar el comando npm test para ejecutar las pruebas.
@@ -172,6 +172,6 @@ test('la raiz de 8 es igual a 2.828', () => {
 
 ![1622059574843](https://raw.githubusercontent.com/yoomismo/lab-tdd/main/src/testRaiz.png)
 
-#### Resultado del test con todas las operaciones en el main:
+## Resultado del test con todas las operaciones en el main:
 
 ![1622059574843](https://raw.githubusercontent.com/yoomismo/lab-tdd/main/src/testTodas.png)
